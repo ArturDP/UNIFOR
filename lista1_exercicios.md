@@ -11,7 +11,7 @@ Represente, em fluxograma e pseudocódigo, um algoritmo para calcular a média a
 flowchart TD
 A([INICIO]) --> B{{Digite um numero}}
 B --> C[/N1, N2/]
-C --> D[MEDIA]
+C --> D["MEDIA = (N1 +N2)/2"]
 D --> E{<=5}
 E --F--> F{{APROVADO}}
 E --V--> G{{REPROVADO}}
