@@ -8,7 +8,7 @@
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
 #### Fluxograma
 
-	```mermaid
+```mermaid
 flowchart TD
 A([INICIO]) --> B{{Digite um numero}}
 B --> C[/numero/]
@@ -24,7 +24,6 @@ I --> J
 
 ```
 ```
-
 ALGORITIMO verificar_par_impar
 DECLARE numero, resto INTEIRO
 ESCREVA "Digite um numero"
@@ -37,5 +36,4 @@ SE numero > 0 ENTAO
 SENAO
 	ESCREVA "O numero deve ser positivo!"
 FIM
- ```
- ```
+  ```
