@@ -26,6 +26,8 @@ INICIO
 ESCREVA "Digite um número: "
 LEIA num
 ENQUANTO num < 0 FAÇA
+
+
 	ESCREVA “Digite um número positivo: "
 	LEIA num
 FIM_ENQUANTO
@@ -44,3 +46,20 @@ FIM
 | 0 | True | 0 | True | "O número é par!"|
 | 10 | True | 0 | True | "O número é par!"|
 | 11 | True | 1 | False | "O número é ímpar!"|
+
+### Exercicio 02
+Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas os múltiplos de 3.
+```mermaid
+flowchart TD
+
+A([INICIO]) --> B["i = 0"]
+B --> C{i <= 30}
+C -- sim --> D{i%3 == 0}
+C -- não --> E([FIM])
+D -- não --> F["i++"]
+F --> C
+D -- sim --> G{{"exibir i"}}
+G --> F
+```
+#### Pseudocódigo
+```
