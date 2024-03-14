@@ -56,7 +56,7 @@ A([INICIO]) --> B["i = 0"]
 B --> C{i <= 30}
 C -- sim --> D{i%3 == 0}
 C -- não --> E([FIM])
-D -- não --> F["i++"]
+D -- não --> F["i=+1"]
 F --> C
 D -- sim --> G{{"exibir i"}}
 G --> F
