@@ -36,6 +36,9 @@ ESCREVA "Digite o valor da a:"
 LEIA a
 ESCREVA "Digite o valor da b:"
 LEIA b
+aux <-- b
+b <-- a
+a <-- aux
 ...
 FIM
 ```
