@@ -5,6 +5,7 @@ Orientador: Prof. Ricardo Carubbi
 ## Lista 3 de exercicios
 
 ### Exercicio 01
+Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar
 ```mermaid
 flowchart TD
 A([INICIO]) --> B{{Digite um numero: }}
