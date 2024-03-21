@@ -26,8 +26,6 @@ INICIO
 ESCREVA "Digite um número: "
 LEIA num
 ENQUANTO num < 0 FAÇA
-
-
 	ESCREVA “Digite um número positivo: "
 	LEIA num
 FIM_ENQUANTO
