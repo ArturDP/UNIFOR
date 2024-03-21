@@ -84,24 +84,7 @@ J --> K
 K --LOOP--> F
 ```
 
-#### Fluxograma 02
-Fluxograma opcional usando o loop PARA.
 
-```mermaid
-flowchart TD
-A([INICIO]) --> B{{Digite o número de notas: }}
-B --> C[\n\]
-C --> D[\cont = 0\]
-D --> E[[i=1 ATE n PASSO 1]]
-E --"i=1,2...,n"--> F{{Digite nota, i}}
-E --"i > n"--> K{{Número de alunos aprovados: , cont}}
-K --> L([FIM])
-F --> G[\nota\]
-G --> H{"nota >= 50 <br>E <br>nota <=100"}
-H --FALSE/LOOP--> E
-H --TRUE--> J[\cont =+ 1\]
-J --LOOP--> E
-```
 
 #### Pseudocódigo 01 (1 ponto)
 
@@ -122,14 +105,6 @@ Teste de mesa referente ao algoritmo usando o loop ENQUANTO.
 | 3  | 3  | 3  |  1   | True  | nota 3  | 90   | True        | 2      | 4   |              |
 | 4  | 3  | 4  |  2   | False |         |      |             |        |     | Aprovados: 2 |
 
-#### Teste de mesa 02
-Teste de mesa referente ao algoritmo usando o loop PARA.
-
-| it | n  | cont | i  | nota, i | nota | nota_valida | cont+1 | saída        | 
-| -- | -- | --   | -- | --      | --   | --          | --     | --           |
-| 1  | 3  | 0    | 1  | nota 1  | 60   | True        | 1      |              |
-| 2  | 3  | 1    | 2  | nota 2  | 40   | False       | 1      |              |
-| 3  | 3  | 1    | 3  | nota 3  | 90   | True        | 2      | Aprovados: 2 |
 
 ### Questão 3 - Soma de um conjunto de números (1 ponto)
 
