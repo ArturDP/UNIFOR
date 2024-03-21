@@ -292,7 +292,18 @@ I --LOOP--> E
 ```
 
 #### Pseudocódigo (2 pontos)
-
+escreva("digite o limite da sequencia de fibonacci: ")
+   leia(limite)
+   anterior <- 0
+   atual <- 1
+   escreva("anterior ->", anterior)
+   escreva("atual ->", atual)
+   enquanto (atual + anterior <= limite) faca
+       proximo <- atual + anterior
+       escreva ("proximo ->", proximo)
+       anterior <- atual
+       atual <- proximo
+   fim_enquanto
 ```
 Algoritmo GeraFibonacci
 INICIO
