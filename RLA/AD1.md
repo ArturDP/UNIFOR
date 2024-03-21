@@ -364,8 +364,8 @@ ESCREVA Digite um número inteiro:
 LEIA num
  ENQUANTO num > 0 Faça // Calcular o último dígito do número na variável digito
         digito <- num % 10
-        num_inv <- num_inv = num_inv * 10 + digito
-        numero <- numero // 10
+        adicionar <- num_inv = num_inv * 10 + digito
+        remover <- numero // 10
 ESCREVA "Número" num
 FIM_ENQUANTO
 
