@@ -31,7 +31,8 @@ I --> J{{"b =", b}}
 ```
 Algoritmo TrocaValores
 ALGORITIMO
-DECLARE a,b
+DECLARE a,b,aux
+LEIA 
 ...
 FIM
 ```
