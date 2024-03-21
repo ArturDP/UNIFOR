@@ -347,6 +347,15 @@ E --> W
 ```
 Algoritmo InverteInteiro
 INICIO
+ALGORITIMO Inverter_Numero
+DECLARE num >= 0,num >0
+ESCREVA Digite um número inteiro:
+LEIA num
+ ENQUANTO num > 0 Faça // Calcular o último dígito do número na variável digito
+        digito <- num % 10
+ESCREVA "Número" num
+FIM_ENQUANTO
+
 ...
 FIM
 ```
