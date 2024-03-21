@@ -30,7 +30,7 @@ I --> J{{"b =", b}}
 
 ```
 Algoritmo TrocaValores
-INICIO
+ALGORITIMO
 ...
 FIM
 ```
