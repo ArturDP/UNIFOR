@@ -32,7 +32,10 @@ I --> J{{"b =", b}}
 Algoritmo TrocaValores
 ALGORITIMO
 DECLARE a,b,aux
-LEIA 
+ESCREVA "Digite o valor da a:"
+LEIA a
+ESCREVA "Digite o valor da b:"
+LEIA b
 ...
 FIM
 ```
