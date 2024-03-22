@@ -4,8 +4,11 @@ Orientador: Prof. Ricardo Carubbi
 
 ## Lista 3 de exercicios
 
-### Exercício 01 
+### Exercício 01 (2.5 pontos)
 Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar, usando uma laço condicional para aceitar apenas números maiores ou iguais a zero. 
+
+#### Fluxograma 
+```mermaid 
 flowchart TD
 A([INICIO]) --> B{{Digite um numero: }}
 B --> C[/num/]
