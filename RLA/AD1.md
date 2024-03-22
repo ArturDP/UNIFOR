@@ -86,12 +86,22 @@ K --LOOP--> F
 
 
 
-#### Pseudocódigo 01 (1 ponto)
+#### Pseudocódigo (0.5 ponto)
 
 ```
 Algoritmo ContaAprovacoes
-INICIO
-...
+DECLARAR n, cont, i, nota: INTEIRO
+INICIAR
+ESCREVA "Digite o numero de notas: "
+LEIA n
+ENQUANTO i != n FAÇA
+	ESCREVA "digite a nota de 0 a 100:"
+	LEIA nota
+	SE nota >= 50 ENTÃO
+		cont = cont + 1
+	i = i + 1
+FIM_ENQUANTO
+ESCREVA "numero de alunos aprovados: ", cont
 FIM
 ```
 
@@ -141,12 +151,20 @@ J --> K[i =+ 1]
 K --LOOP--> G
 ```
 
-#### Pseudocódigo (1 ponto)
+#### Pseudocódigo (0.5 ponto)
 
 ```
-Algoritmo SomaNumeros
-INICIO
-...
+Algoritmo ContaAprovacoes
+DECLARAR n, soma, a, i: INTEIRO
+INICIAR
+ESCREVER "Digite quantos numeros serão somados: "
+LEIA n
+EMQUANTO a != 0 FAÇA
+	Digite um numero:
+	soma = soma + i
+	a = a + 1
+FIM_ENQUANTO
+ESCREVER soma
 FIM
 ```
 
@@ -195,12 +213,22 @@ H --> I[S += termo]
 I --LOOP--> E
 ```
 
-#### Pseudocódigo (1 ponto)
+#### Pseudocódigo (0.5 ponto)
 
 ```
-Algoritmo SomaSerie
-INICIO
-...
+Algoritmo ContaAprovacoes
+DECLARAR n, S, i, numerador, denominador: REAL
+ESCREVA Digite o numero de termos: 
+LEIA n
+S = 0, i = 0
+ENQUANTO i < n FAÇA
+	numerodor = i * 2 + 1
+	denominador = i * 2 + 2
+	termo = numerador/denominador
+	S = S + termo
+	i = i + 1
+FIM_ENQUANTO
+ESCREVER S
 FIM
 ```
 
@@ -243,12 +271,25 @@ G --LOOP--> F
 H --> I
 ```
 
-#### Pseudocódigo (2 pontos)
+#### Pseudocódigo (1.0 ponto)
 
 ```
-Algoritmo CalcFatorial
-INICIO
-...
+Algoritmo ContaAprovacoes
+DECLARAR n, fator, i: INTEIRO
+INICIAR
+ESCREVER "Digite um numero maior ou igual a 0: "
+LEIA n
+fator = 1
+i = 1
+SE n = 0 ou n = 1
+	ESCREVER fator
+	FIM
+SENÂO
+ENQUANTO i < n FAÇA
+	fator = fator * i
+	i = i + 1
+FIM_ENQUANTO
+ESCREVER fator
 FIM
 ```
 
@@ -291,23 +332,21 @@ H --> I[b = termo_atual]
 I --LOOP--> E 
 ```
 
-#### Pseudocódigo (2 pontos)
-escreva("digite o limite da sequencia de fibonacci: ")
-   leia(limite)
-   anterior <- 0
-   atual <- 1
-   escreva("anterior ->", anterior)
-   escreva("atual ->", atual)
-   enquanto (atual + anterior <= limite) faca
-       proximo <- atual + anterior
-       escreva ("proximo ->", proximo)
-       anterior <- atual
-       atual <- proximo
-   fim_enquanto
+#### Pseudocódigo (1.0 ponto)
+
 ```
-Algoritmo GeraFibonacci
-INICIO
-...
+Algoritmo ContaAprovacoes
+DECLARAR n, a, b, termo_atual: INTEIRO
+INICIAR
+ESCREVA "Digite um numero maior que 0: "
+LEIA n
+ENQUANTO n > 0  FAÇA
+	ESCREVA a, ", "
+	termo_atual = a + b
+	a = b
+	b = termo_atual
+	n = n - 1
+FIM_ENQUANTO
 FIM
 ```
 #### Teste de mesa
