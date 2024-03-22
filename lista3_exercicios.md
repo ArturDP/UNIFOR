@@ -4,9 +4,8 @@ Orientador: Prof. Ricardo Carubbi
 
 ## Lista 3 de exercicios
 
-### Exercicio 02
-Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar
-```mermaid
+### Exercício 01 
+Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar, usando uma laço condicional para aceitar apenas números maiores ou iguais a zero. 
 flowchart TD
 A([INICIO]) --> B{{Digite um numero: }}
 B --> C[/num/]
