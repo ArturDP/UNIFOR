@@ -155,16 +155,22 @@ K --LOOP--> G
 
 ```
 Algoritmo ContaAprovacoes
-DECLARAR n, soma, a, i: INTEIRO
+DECLARAR n, soma, i: INTEIRO
 INICIAR
 ESCREVER "Digite quantos numeros serão somados: "
 LEIA n
-EMQUANTO a != 0 FAÇA
-	Digite um numero:
-	soma = soma + i
-	a = a + 1
-FIM_ENQUANTO
-ESCREVER soma
+SE n >= 0 ENTAO`
+	soma <- 0
+	i <- 1
+	ENQUANTO i >= 0 FAÇA
+		Digite um numero:
+		LEIA num
+		soma = soma + num
+		i = i + 1
+	FIM_ENQUANTO
+	ESCREVA "A soma dos numeros é , soma"
+SENAO
+	"O valor deve ser maior ou igual a zero!"
 FIM
 ```
 
